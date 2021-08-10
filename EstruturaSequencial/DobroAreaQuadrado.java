@@ -11,7 +11,6 @@ public class DobroAreaQuadrado {
 		Double lado = sc.nextDouble();
 		
 		//Double area = lado * lado; // area = lado * lado.
-		
 		Double area = Math.pow(lado, 2);
 		
 		System.out.println("Área do quadrado é: " + area);
