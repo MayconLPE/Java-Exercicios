@@ -11,11 +11,9 @@ public class MetrosParaCentimetros {
 		System.out.println("Digite os metros para transforma em centímetros:");
 		Double m = sc.nextDouble(); // Metros.
 		
-		Double cm = m * 100; // centímetros
-		
+		Double cm = m * 100; // centímetros	
 		
 		System.out.println( m + " metros, convertidos em centímetros é igual a " + cm + "cm");
-
 	}
 
 }
