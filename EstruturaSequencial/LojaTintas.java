@@ -4,17 +4,15 @@ import java.util.Scanner;
 public class LojaTintas {
 
 	public static void main(String[] args) {
-		/* 16. FaÁa um programa para uma loja de tintas. O programa dever· pedir 
-		  	o tamanho em metros quadrados da ·rea a ser pintada.
-			Considere que a cobertura da tinta È de 1 litro para cada 3 metros quadrados 
-			e que a tinta È vendida em latas de 18 litros, que
-			custam R$ 80,00. Informe ao usu·rio a quantidades de latas de tinta a serem compradas e o preÁo total.
+		/* 16. Fa√ßa um programa para uma loja de tintas. O programa dever√° pedir 
+		  	o tamanho em metros quadrados da √°rea a ser pintada.
+			Considere que a cobertura da tinta √© de 1 litro para cada 3 metros quadrados 
+			e que a tinta √© vendida em latas de 18 litros, que
+			custam R$ 80,00. Informe ao usu√°rio a quantidades de latas de tinta a serem compradas e o pre√ßo total.
 		*/
 		
-		
-		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Metros da ·rea a ser pintada: ");
+		System.out.println("Metros da √°rea a ser pintada: ");
 		Double metros = sc.nextDouble();
 		
 		Double litro = metros / 3; // 1 litro para cada 3 metros quadrados 
@@ -26,13 +24,7 @@ public class LojaTintas {
 		
 		System.out.println("Tintas a serem usadas: " + latas + " Latas");
 		System.out.println("Valor a ser gasto: R$ " + preco);
-		
-		
-		
-		
-		
-		
-		
+				
 	}
 
 }
