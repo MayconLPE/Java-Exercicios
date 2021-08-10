@@ -8,7 +8,6 @@ public class FarenheitParaCelsius {
 		 e mostre a temperatura em graus Celsius. C = (5 * (F-32) / 9). */
 		
 		Scanner sc = new Scanner(System.in);
-
 		System.out.println("Digite a temperatura em graus Farenheit:");
 		Double grausF = sc.nextDouble();
 
