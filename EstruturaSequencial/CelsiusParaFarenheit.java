@@ -9,7 +9,6 @@ public class CelsiusParaFarenheit {
 		°F = °C × 1, 8 + 32 */
 	
 	Scanner sc = new Scanner(System.in);
-
 	System.out.println("Digite a temperatura em graus Celsius:");
 	Double grausC = sc.nextDouble();
 	
@@ -18,5 +17,4 @@ public class CelsiusParaFarenheit {
 	System.out.println(grausC + "°C = " + grausF + "°F");
 
 	}
-
 }
