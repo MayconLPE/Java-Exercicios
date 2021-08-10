@@ -4,18 +4,18 @@ import java.util.Scanner;
 public class SomaTresNumeros {
 
 	public static void main(String[] args) {
-		/* 11. Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
-				o produto do dobro do primeiro com metade do segundo .
-				a soma do triplo do primeiro com o terceiro.
-				o terceiro elevado ao cubo.
+		/* 11. FaÃ§a um Programa que peÃ§a 2 nÃºmeros inteiros e um nÃºmero real. Calcule e mostre:
+			o produto do dobro do primeiro com metade do segundo .
+			a soma do triplo do primeiro com o terceiro.
+			o terceiro elevado ao cubo.
 		*/
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Digite um número inteiro:");
+		System.out.println("Digite um nÃºmero inteiro:");
 		int num1 = sc.nextInt();	
-		System.out.println("Digite o segundo número inteiro:");
+		System.out.println("Digite o segundo nÃºmero inteiro:");
 		int num2 = sc.nextInt();
-		System.out.println("Digite o terceiro número real:");
+		System.out.println("Digite o terceiro nÃºmero real:");
 		float num3 = sc.nextFloat();
 		
 		// O produto do dobro do primeiro com metade do segundo.
