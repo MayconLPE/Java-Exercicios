@@ -1,16 +1,29 @@
 package EstruturaSequencial;
 
-public class ExcessoPesoPeixe {
+import java.util.Scanner;
+
+public class ExcessoDePeixes {
 
 	public static void main(String[] args) {
 		/*
-		 *  14. Jo„o Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento di·rio de 
-		 * seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca 
-		 * do estado de S„o Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. Jo„o precisa que
-		 * vocÍ faÁa um programa que leia a vari·vel peso (peso de peixes) e calcule o excesso. Gravar na vari·vel
-		 * excesso a quantidade de quilos alÈm do limite e na vari·vel multa o valor da multa que Jo„o dever· pagar. 
-		 * Imprima os dados do programa com as mensagens adequadas.
-		*/
+		  14.Jo√£o Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento di√°rio de seu trabalho. Toda
+			vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de S√£o Paulo (50 quilos)
+			deve pagar uma multa de R$ 4,00 por quilo excedente. Jo√£o precisa que voc√™ fa√ßa um programa que leia a vari√°vel peso (peso
+			de peixes) e calcule o excesso. Gravar na vari√°vel excesso a quantidade de quilos al√©m do limite e na vari√°vel multa o valor da
+			multa que Jo√£o dever√° pagar. Imprima os dados do programa com as mensagens adequadas.
+		 */
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o peso dos Peixes: ");
+		Double pesoPeixes = sc.nextDouble(); // Peso dos peixes.	
+		
+		if (pesoPeixes > 50) {
+			Double multaValor = (pesoPeixes - 50)* 4; // Valor de multa.
+			System.out.println("Peso ultrapassado valor a ser pago com multa √©: R$ " + multaValor);
+		}
+		else {
+			System.out.println("Peso n√£o ultrapassado sem pagamentos de multa."); // Valor sem multa.
+		}
 	}
-
 }
