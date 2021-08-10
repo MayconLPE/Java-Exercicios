@@ -9,8 +9,6 @@ public class NumeroDigitado {
 		JOptionPane.showMessageDialog(null,"Bem vindo");
 		
 		String ler = JOptionPane.showInputDialog(null,"Digite um número:");
-		JOptionPane.showMessageDialog(null,"O número digitado foi: " + ler);
-		
+		JOptionPane.showMessageDialog(null,"O número digitado foi: " + ler);	
 	}
-
 }
