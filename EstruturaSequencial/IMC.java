@@ -6,11 +6,9 @@ public class IMC {
 	public static void main(String[] args) {
 		/* 13. Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo 
 		    que calcule seu peso ideal, utilizando as
-			seguintes fórmulas:
+			seguintes fÃ³rmulas:
 			Para homens: (72.7*h) - 58
-			Para mulheres: (62.1*h) - 44.7 
-			
-			
+			Para mulheres: (62.1*h) - 44.7 	
 		*/
 		
 		Scanner sc = new Scanner(System.in);
@@ -21,7 +19,7 @@ public class IMC {
 		System.out.println("Digite seu peso atual: ");
 		Double peso = sc.nextDouble();
 		
-		Double imc = peso / (altura * altura); //IMC = Peso / (Altura × Altura)
+		Double imc = peso / (altura * altura); //IMC = Peso / (Altura Ã— Altura)
 		
 		System.out.println("Digite seu sexo como: M para masculico e F para Feminino: ");
 		char sexo = sc.next().charAt(0);
@@ -53,7 +51,7 @@ public class IMC {
 			System.out.println("Obesidade grau III");
 		}
 			
-		System.out.println("Seu IMC é: " + imc);
+		System.out.println("Seu IMC Ã©: " + imc);
 	}
 
 }
