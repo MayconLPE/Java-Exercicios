@@ -28,3 +28,29 @@ public class LojaTintas {
 	}
 
 }
+/* com JOptionPane
+package EstruturaSequencial;
+import javax.swing.JOptionPane;
+
+public class LojaTintas {
+
+	public static void main(String[] args) {		
+		//idade = Integer.paserInt();
+		
+		JOptionPane.showMessageDialog(null,"Bem vindo");
+		
+		String aux1 = JOptionPane.showInputDialog(null,"Metros da área a ser pintada:");
+		Double metros = Double.valueOf(aux1); // Convertendo String para Double.
+		
+		Double litro = metros / 3; // 1 litro para cada 3 metros quadrados 
+		Double lataValor = 80.0; // Cada tinta R$ 80,00.
+		Double lataCapacidade = 18.0; // latas de 18 litros.
+		
+		Double latas = litro / lataCapacidade; //quantidades de latas de tinta.
+		Double preco = latas * lataValor; // quantidades de latas de tinta.
+		
+		JOptionPane.showMessageDialog(null,"Tintas a serem usadas: " + latas + " Latas" + "\nValor a ser gasto: R$ " + preco);		
+	}
+
+}
+*/
