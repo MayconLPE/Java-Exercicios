@@ -6,10 +6,10 @@ public class NumeroZeroDez {
 
 	public static void main(String[] args) {
 		/*
-		 * 1. Faça um programa que peça uma nota, entre zero e dez. 
-		 * Mostre uma mensagem caso o valor seja inválido e continue 
+		 * 1. FaÃ§a um programa que peÃ§a uma nota, entre zero e dez. 
+		 * Mostre uma mensagem caso o valor seja invÃ¡lido e continue 
 		 * pedindo
-		 * até que o usuário informe um valor válido.
+		 * atÃ© que o usuÃ¡rio informe um valor vÃ¡lido.
 		 */		
 		
 		boolean notaValida = false;
@@ -21,10 +21,10 @@ public class NumeroZeroDez {
 			
 			if (nota >= 0 && nota <= 10) {
 				notaValida = true;
-				System.out.println("Sua nota é: " + nota);
+				System.out.println("Sua nota Ã©: " + nota);
 			}
 			else {
-				System.out.println("Nota inválida");
+				System.out.println("Nota invÃ¡lida");
 			}
 		} while (!notaValida);	
 	}
