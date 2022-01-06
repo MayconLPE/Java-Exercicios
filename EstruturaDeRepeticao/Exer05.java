@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class PopulacaoPais2 {
 	
 	public static void main(String[] args) {
-		/*
-         * 5. Altere o programa anterior permitindo ao usuário informar as populações e
+	/*
+         * 5. Altere o programa anterior permitindo ao usuÃ¡rio informar as populaÃ§Ãµes e
          * as taxas de crescimento iniciais. Valide a entrada e permita repetir a
-         * operação.
+         * operaÃ§Ã£o.
          */
         Scanner sc = new Scanner(System.in);
         Double paisA, paisB, taxaA, taxaB;
@@ -15,26 +15,26 @@ public class PopulacaoPais2 {
         boolean infoValido = false;
 
         do {
-            System.out.println("Informe a população atual do país A:");
+            System.out.println("Informe a populaÃ§Ã£o atual do paÃ­s A:");
             paisA = sc.nextDouble();
         
             if (paisA > 0){
                 infoValido = true;
             } else {
-                System.out.println("Digite um número maior que zero!");
+                System.out.println("Digite um nÃºmero maior que zero!");
             }
         }while(!infoValido);
 
         infoValido = false;
 
         do {
-            System.out.println("Informe a população atual do país B:");
+            System.out.println("Informe a populaÃ§Ã£o atual do paÃ­s B:");
             paisB = sc.nextDouble();
         
             if (paisB > 0){
               infoValido = true;
             } else {
-                System.out.println("Digite um número maior que zero!");
+                System.out.println("Digite um nÃºmero maior que zero!");
             }
         }while(!infoValido);
 
@@ -47,7 +47,7 @@ public class PopulacaoPais2 {
             if (taxaA > 0){
                infoValido = true;
             } else {
-                System.out.println("Digite um número maior que zero!");
+                System.out.println("Digite um nÃºmero maior que zero!");
             }
         }while(!infoValido);
 
@@ -60,7 +60,7 @@ public class PopulacaoPais2 {
             if (taxaB > 0){
               infoValido = true;
             } else {
-                System.out.println("Digite um número maior que zero!");
+                System.out.println("Digite um nÃºmero maior que zero!");
             }
         }while(!infoValido);
 
@@ -71,9 +71,9 @@ public class PopulacaoPais2 {
             paisB += (paisB / 100) * taxaB;
             contador++;
          }
-         System.out.println(contador + " Anos para passar a população B.");
-         System.out.println("População A: " + paisA);
-         System.out.println("População B: " + paisB);
+         System.out.println(contador + " Anos para passar a populaÃ§Ã£o B.");
+         System.out.println("PopulaÃ§Ã£o A: " + paisA);
+         System.out.println("PopulaÃ§Ã£o B: " + paisB);
 
      
 		
