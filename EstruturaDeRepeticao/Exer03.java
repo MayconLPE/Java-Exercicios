@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class ValideInformacoes {
 
 	public static void main(String[] args) {
-		/* 3. Faça um programa que leia e valide as seguintes informações:
+		/* 3. FaÃ§a um programa que leia e valide as seguintes informaÃ§Ãµes:
 			Nome: maior que 3 caracteres;
 			Idade: entre 0 e 150;
-			Salário: maior que zero;
+			SalÃ¡rio: maior que zero;
 			Sexo: 'f' ou 'm';
 			Estado Civil: 's', 'c', 'v', 'd';
 		*/
@@ -29,7 +29,7 @@ public class ValideInformacoes {
 			}				
 		}while(!valido);	
 		
-		valido = false; //resetando a variável.
+		valido = false; //resetando a variÃ¡vel.
 		do {
 			System.out.println("Digite sua idade entre 0 e 150:");
 			idade = sc.nextInt();
@@ -42,21 +42,21 @@ public class ValideInformacoes {
 			}
 		} while(!valido);
 		
-		valido = false; //resetando a variável.
+		valido = false; //resetando a variÃ¡vel.
 		do {
-			System.out.println("Digite sua salário acima de zero:");
+			System.out.println("Digite sua salÃ¡rio acima de zero:");
 			salario = sc.nextDouble();
 			
 			if (salario >= 1) {
 				valido = true;
 			} 
 			else {
-				System.out.println("Salário abaixo de 0, Digite um salário maior que zero:");
+				System.out.println("SalÃ¡rio abaixo de 0, Digite um salÃ¡rio maior que zero:");
 			}
 			
 		} while(!valido);
 		
-		valido = false; //resetando a variável.
+		valido = false; //resetando a variÃ¡vel.
 		do {
 			System.out.println("Digite seu sexo:(M)Masculino ou (F)Feminino:");
 			sexo = sc.next();
@@ -65,11 +65,11 @@ public class ValideInformacoes {
 				valido = true;
 			} 
 			else {
-				System.out.println("Sexo inválido, Digite seu sexo:(M)Masculino ou (F)Feminino:");
+				System.out.println("Sexo invÃ¡lido, Digite seu sexo:(M)Masculino ou (F)Feminino:");
 			}
 		} while(!valido);
 		
-		valido = false; //resetando a variável.
+		valido = false; //resetando a variÃ¡vel.
 		do {
 			System.out.println("Digite seu estado Civil: \n(S)Solteiro(a) \n(C)Casado(a) \n(V)viuvo(a) \n(D)Divorciado:");
 			estadoCivil = sc.next();
@@ -79,14 +79,14 @@ public class ValideInformacoes {
 				valido = true;
 			} 
 			else {
-				System.out.println("Estado civil inválido, Digite seu estado Civil: \n(S)Solteiro(a) \n(C)Casado(a) \n(V)viuvo(a) \n(D)Divorciado:");
+				System.out.println("Estado civil invÃ¡lido, Digite seu estado Civil: \n(S)Solteiro(a) \n(C)Casado(a) \n(V)viuvo(a) \n(D)Divorciado:");
 			}
 		} while(!valido);
 		
 		System.out.println("Resultados:");
 		System.out.println("Nome: " + nome);
 		System.out.println("Idade: " + idade);
-		System.out.println("Salário: " + salario);
+		System.out.println("SalÃ¡rio: " + salario);
 		System.out.println("Sexo: " + sexo);
 		System.out.println("Estado civil: " + estadoCivil);
 	}
