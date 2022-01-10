@@ -2,7 +2,7 @@ package EstruturaDeRepeticao;
 import java.util.Scanner;
 
 
-public class NumeroZeroDez {
+public class Exer01 {
 
 	public static void main(String[] args) {
 		/*

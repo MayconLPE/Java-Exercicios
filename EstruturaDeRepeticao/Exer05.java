@@ -1,7 +1,7 @@
 package EstruturaDeRepeticao;
 import java.util.Scanner;
 
-public class PopulacaoPais2 {
+public class Exer05 {
 	
 	public static void main(String[] args) {
 	/*

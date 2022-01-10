@@ -2,7 +2,7 @@ package EstruturaSequencial;
 
 import java.util.Scanner;
 
-public class ExcessoDePeixes {
+public class Exer14 {
 
 	public static void main(String[] args) {
 		/*

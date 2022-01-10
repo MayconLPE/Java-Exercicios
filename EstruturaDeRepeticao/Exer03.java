@@ -1,7 +1,7 @@
 package EstruturaDeRepeticao;
 import java.util.Scanner;
 
-public class ValideInformacoes {
+public class Exer03 {
 
 	public static void main(String[] args) {
 		/* 3. Faça um programa que leia e valide as seguintes informações:
