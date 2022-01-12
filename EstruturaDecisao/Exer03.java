@@ -1,24 +1,24 @@
 package EstruturaDecisao;
 import java.util.Scanner;
 
-public class SexoMasculinoOuFeminino {
+public class Exer03 {
 
 	public static void main(String[] args) {
-		/* 3.FaÁa um Programa que verifique se uma letra digitada È "F" ou "M".
-		   Conforme a letra escrever: F - Feminino, M - Masculino, SexoInv·lido.*/
+		/* 3.Fa√ßa um Programa que verifique se uma letra digitada √© "F" ou "M". 
+			Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inv√°lido.*/
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite F para Feminino ou M para Masculino:");
 		String sexo = sc.next();
 		
-		if (sexo.equalsIgnoreCase("F")) { //sexo.equals comparaÁ„o de String
+		if (sexo.equalsIgnoreCase("F")) { //sexo.equals compara√ß√£o de String
 			System.out.println("Sexo feminino");
 		}
 		else if (sexo.equalsIgnoreCase("M")){
 			System.out.println("Sexo masculino");
 		}
 		else {
-			System.out.println("OpÁ„o invalida");
+			System.out.println("Op√ß√£o invalida");
 		}
 	}
 

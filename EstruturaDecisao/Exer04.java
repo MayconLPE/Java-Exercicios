@@ -1,10 +1,10 @@
 package EstruturaDecisao;
 import java.util.Scanner;
 
-public class VogalOuConsoante {
+public class Exer04 {
 
 	public static void main(String[] args) {
-		//4.Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+		//4.FaÃ§a um Programa que verifique se uma letra digitada Ã© vogal ou consoante.
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite uma letra:");

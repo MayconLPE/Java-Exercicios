@@ -1,13 +1,11 @@
 package EstruturaDecisao;
 import java.util.Scanner;
 
-public class TurnoEstuda {
+public class Exer10 {
 
 	public static void main(String[] args) {
-		/* 10. Faça um Programa que pergunte em que turno você estuda. Peça para digitar
-		 * M-matutino ou V-Vespertino ou N- Noturno.
-		 * imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
-		 */
+		/*  FaÃ§a um Programa que pergunte em que turno vocÃª estuda. PeÃ§a para digitar M-matutino ou V-Vespertino ou N- Noturno.
+			Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor InvÃ¡lido!", conforme o caso. */
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -24,7 +22,7 @@ public class TurnoEstuda {
 			System.out.println("Boa noite!");
 		} 
 		else {
-			System.out.println("Inválido!");
+			System.out.println("Invï¿½lido!");
 		}	
 	}
 }
