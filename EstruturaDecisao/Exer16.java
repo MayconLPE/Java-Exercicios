@@ -1,5 +1,7 @@
 package EstruturaDecisao;
 
+import java.util.Scanner;
+
 public class Exer16 {
     public static void main(String[] args) {
 
@@ -11,6 +13,20 @@ public class Exer16 {
             Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
             Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário;
         */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o Valor de a:");
+        int valorA = sc.nextInt();
+        if (valorA == 0) {
+            System.out.println("Valor de A igual a zero, a equação não é do segundo grau");
+        }
+        System.out.println("Digite o Valor de B:");
+        int valorB = sc.nextInt();
+        System.out.println("Digite o Valor de C:");
+        int valorV = sc.nextInt();
+
+
+
 
         
         
