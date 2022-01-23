@@ -15,15 +15,35 @@ public class Exer16 {
         */
 
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Digite o Valor de a:");
-        int valorA = sc.nextInt();
-        if (valorA == 0) {
-            System.out.println("Valor de A igual a zero, a equação não é do segundo grau");
+        int a = sc.nextInt();
+
+        if (a == 0) {
+            System.out.println("Valor de A igual a zero, a equação não é do segundo grau");     
+        } else {
+            System.out.println("Digite o Valor de B:");
+            int b = sc.nextInt();
+            System.out.println("Digite o Valor de C:");
+            int c = sc.nextInt();
+
+            int delta = b * b - (4 * a * c);
+
+            if (delta < 0) {
+                System.out.println("a equação não possui raizes reais, valor negativo.");
+            } else if (delta == 0) {
+                int raiz = -b / (2 * a);
+                System.out.println("Delta = 0, raiz = " + raiz);
+            } else {
+                double raiz1 = (-b + Math.sqrt(delta)) / (2 * a);
+                double raiz2 = (-b - Math.sqrt(delta)) / (2 * a);
+
+                System.out.println("Raizes: " + raiz1 + " e " + raiz2);
+            }
+
+            
+
         }
-        System.out.println("Digite o Valor de B:");
-        int valorB = sc.nextInt();
-        System.out.println("Digite o Valor de C:");
-        int valorV = sc.nextInt();
 
 
 
