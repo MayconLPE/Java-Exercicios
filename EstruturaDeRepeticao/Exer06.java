@@ -8,6 +8,20 @@ public class Exer06 {
          * mostre os números um ao lado do outro
          */
         
+         int numero = 20;
+
+         for (int i = 1; i <= numero; i++) {
+
+            System.out.println(i);
+             
+         }
+         for (int i = 1; i <= numero; i++) {
+
+            System.out.print(i + " ");
+             
+         }
+
+
     }
     
 }
