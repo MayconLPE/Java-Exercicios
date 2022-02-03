@@ -27,5 +27,6 @@ public class Exer01 {
 				System.out.println("Nota inválida");
 			}
 		} while (!notaValida);	
+		sc.close();
 	}
 }
