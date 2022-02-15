@@ -13,13 +13,19 @@ public class Exer10 {
         System.out.println("Digite outro número: ");
         int n2 = sc.nextInt();
 
-        for (int i = n1;i < n2;i++ ) {
-            System.out.println(i);
-
-        }
-
-
-
+        if (n1 < n2) {
+            System.out.println("Números entre " + n1 + " e " + n2);
+            for (int i = n1+1;n2 > i;i++) {
+                System.out.print(" " + i);
+            }
+        } else if (n2 < n1) {
+            System.out.println("Números entre " + n2 + " e " + n1);
+            for (int i = n2 +1;n1 > i;i++) {
+                System.out.print(" " + i);
+            }
+        } else {
+            System.out.println("Iguais");
+        }   
+        sc.close();  
     }
-    
 }
