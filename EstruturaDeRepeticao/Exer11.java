@@ -17,19 +17,24 @@ public class Exer11 {
          System.out.print("Digite o segundo número:");
          int n2 = sc.nextInt();
 
+         int soma = 0;
+
          if (n1 < n2) {
              for (int i = n1+1; n2 > i; i++) {
                  System.out.println(i);
+                 soma += i;
              }
 
          } else if (n2 < n1) {
              for (int i = n2+1; n1 > i; i++) {
                  System.out.println(i);
+                 soma += i;
              }
 
          } else {
              System.out.println("Número iguais.");
          }
+         System.out.println("Soma dos números: " + soma);
         sc.close();
     }
     
