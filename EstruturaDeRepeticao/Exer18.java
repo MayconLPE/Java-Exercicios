@@ -14,17 +14,18 @@ public class Exer18 {
 
          int soma = 0;
          int maior = 0;
-         int menor = 0;
+         int menor = Integer.MAX_VALUE;
 
-         for (int i = 0; i < quant; i++) {
-             System.out.print("Digite o número: ");
+         for (int i = 1; i <= quant; i++) {
+             System.out.print("Digite o " + i + "° número: ");
              int num = sc.nextInt();      
-             soma += num;
+             soma += num;           
              
              if (num > maior) {
                 maior = num;
-             } else if (num < maior) {
-                 menor = num;
+             }
+             if (num < menor) {
+                menor = num;
              } 
          }
 
