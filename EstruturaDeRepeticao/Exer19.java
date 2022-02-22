@@ -15,9 +15,8 @@ public class Exer19 {
          int quant = sc.nextInt();
          int soma = 0;
          int maior = 0;
-         int menor = 0;
-
-        
+         int menor = Integer.MAX_VALUE;
+  
          for (int i = 0; i < quant; i++) {
              System.out.print("Digite o número: ");
              int num = sc.nextInt();
@@ -26,11 +25,10 @@ public class Exer19 {
                  soma +=num;
 
                  if (num > maior) {
-                    maior = num;               
-                    
-                 } else if (num < menor) {
-                    menor = num;
-                    
+                    maior = num;                              
+                 } 
+                 if (num < menor) {
+                    menor = num;   
                  }  
                  
              } else {
@@ -41,9 +39,6 @@ public class Exer19 {
          System.out.println("A soma dos números: " + soma);
          System.out.println("O maior número: " + maior);
          System.out.println("O menor número: " + menor);
-
-
-
          sc.close();
          
     }
