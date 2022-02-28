@@ -51,6 +51,8 @@ public class Exer25 {
          System.out.println("Número de Jovens: " + jovem);
          System.out.println("Número de Adultos: " + adulta);
          System.out.println("Número de Idosos: " + idosa);
+
+         sc.close();
         
     }
     
