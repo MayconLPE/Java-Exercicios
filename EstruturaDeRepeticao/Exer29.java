@@ -1,5 +1,7 @@
 package EstruturaDeRepeticao;
 
+import java.util.Scanner;
+
 public class Exer29 {
     public static void main(String[] args) {
         
@@ -16,7 +18,22 @@ public class Exer29 {
          * 2 - R$ 3.98 ... 
          * 50 - R$ 99.50 
          * */
-        
+
+         Scanner sc = new Scanner(System.in);
+         Double valorProduto = 1.99;
+
+         Double ValorTotal = 0d;
+
+         System.out.println("Digite a quantidade de protudos: ");
+         int quant = sc.nextInt();
+
+         for (int i = 0; i < quant; i++) {
+            ValorTotal += valorProduto;
+         }
+
+         System.out.println("Valor total a pagar: " + ValorTotal);
+
+        sc.close();
     }
     
 }
