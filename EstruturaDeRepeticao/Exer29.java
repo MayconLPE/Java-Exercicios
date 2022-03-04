@@ -31,7 +31,7 @@ public class Exer29 {
             ValorTotal += valorProduto;
          }
 
-         System.out.println("Valor total a pagar: " + ValorTotal);
+         System.out.printf("Valor total a pagar: R$ %.2f " , ValorTotal);
 
         sc.close();
     }
