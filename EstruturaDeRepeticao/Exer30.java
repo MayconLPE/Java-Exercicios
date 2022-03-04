@@ -1,5 +1,8 @@
 package EstruturaDeRepeticao;
 
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
 public class Exer30 {
     public static void main(String[] args) {
         /** O Sr. Manoel Joaquim acaba de adquirir uma panificadora
@@ -15,8 +18,22 @@ public class Exer30 {
          * ...
          * 50 - R$ 9.00
          * */
-        
 
+         Scanner sc = new Scanner(System.in);
+
+         System.out.print("Digite a quantidade de pães: ");
+         int quant = sc.nextInt();
+
+         double valorPao = 0.18;
+         double valorTotal = 0;
+
+         for (int i = 0; i < quant; i++) {
+             valorTotal += valorPao;    
+         }
+         
+         System.out.printf("Quantidade de pães: "+ quant + " Valor a pagar: R$ %.2f " , valorTotal);
+        
+         sc.close();
          
     }
     
