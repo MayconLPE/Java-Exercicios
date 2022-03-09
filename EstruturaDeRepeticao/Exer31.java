@@ -1,5 +1,8 @@
 package EstruturaDeRepeticao;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Exer31 {
     public static void main(String[] args) {
         /** O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 
@@ -19,6 +22,70 @@ public class Exer31 {
          * Troco: R$ 11.00
          * ...
          * */
+
+         Scanner sc = new Scanner(System.in);
+         ArrayList<Integer> listaCompras = new ArrayList<Integer>();
+
+         boolean registrando = true;
+         double valorTotal = 0;
+         int quantProdutos = 0;
+         double troco = 0;
+         
+         while (registrando) {
+             System.out.println("*** Lojas Tabajara ***");
+             System.out.println("1- Registrar produtos");
+             System.out.println("2- Sair");
+             int opcao = sc.nextInt();
+             sc.nextLine();
+
+             switch (opcao) {
+                 case 1:
+                    
+
+                    for (int i = 1; i > quantProdutos; i++) {
+                        System.out.println("Digite o valor do " + i + "° produto");
+                        double valor = sc.nextDouble();
+                        valorTotal += valor;                        
+
+                        System.out.println("Total: " + valorTotal);
+                        System.out.println("Continuar: 1 / 2");
+                        int continuar = sc.nextInt();
+
+                        if (continuar == 1) {
+                            System.out.println("...");
+                        } else if(continuar == 2) {      
+                            System.out.println("Digite o valor do dinheiro:");   
+                            double valorPago = sc.nextDouble();
+                            troco = valorPago - valorTotal;
+                            System.out.println("troco: " + valorPago + " - " + valorTotal + " = " + troco);
+
+                            
+                            
+                            System.out.println("Encerrando...");
+                            System.out.println("Total: R$ " + valorTotal);
+                            
+                            break;
+                        } else {
+                            System.out.println("Invalido");
+                        }       
+                              
+                    }
+   
+                     break;
+                 case 2:
+                     System.out.println("Encerrando...");
+                     registrando = false;
+                     break;
+             
+                 default:
+                     break;
+             }
+             System.out.println("Programa encerrado");
+
+
+         }
+             
+         }    
     }
     
-}
+
