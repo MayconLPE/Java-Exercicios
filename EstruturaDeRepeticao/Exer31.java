@@ -24,7 +24,7 @@ public class Exer31 {
          * */
 
          Scanner sc = new Scanner(System.in);
-         ArrayList<Integer> listaCompras = new ArrayList<Integer>();
+         ArrayList<Double> listaCompras = new ArrayList<Double>();
 
          boolean registrando = true;
          double valorTotal = 0;
@@ -45,10 +45,12 @@ public class Exer31 {
                     for (int i = 1; i > quantProdutos; i++) {
                         System.out.println("Digite o valor do " + i + "° produto");
                         double valor = sc.nextDouble();
-                        valorTotal += valor;                        
+                        valorTotal += valor;     
+                        listaCompras.add(valor);   
+                        quantProdutos++;           
 
                         System.out.println("Total: " + valorTotal);
-                        System.out.println("Continuar: 1 / 2");
+                        System.out.println("Continuar: 1- Sim / 2- Não");
                         int continuar = sc.nextInt();
 
                         if (continuar == 1) {
@@ -57,20 +59,22 @@ public class Exer31 {
                             System.out.println("Digite o valor do dinheiro:");   
                             double valorPago = sc.nextDouble();
                             troco = valorPago - valorTotal;
-                            System.out.println("troco: " + valorPago + " - " + valorTotal + " = " + troco);
 
-                            
-                            
-                            System.out.println("Encerrando...");
+                            for (Double elemento : listaCompras) {
+                                System.out.println("Produto R$: " + elemento);
+                             }
+                             
                             System.out.println("Total: R$ " + valorTotal);
-                            
+                            System.out.println("Dinheiro pago: R$ " + valorPago);
+                            System.out.println("troco: R$ " + troco);
+                            System.out.println("Lojas Tabajaras agradece");
+                            System.out.println("Encerrando...");
+                           
                             break;
                         } else {
                             System.out.println("Invalido");
-                        }       
-                              
+                        }                         
                     }
-   
                      break;
                  case 2:
                      System.out.println("Encerrando...");
@@ -81,10 +85,9 @@ public class Exer31 {
                      break;
              }
              System.out.println("Programa encerrado");
-
-
-         }
              
+         }
+         sc.close();
          }    
     }
     
