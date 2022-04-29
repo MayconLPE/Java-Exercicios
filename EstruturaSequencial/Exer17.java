@@ -18,15 +18,21 @@ public class Exer17 {
 
          Scanner sc = new Scanner(System.in);
 
-         System.out.print("Área a ser pintada: ");
-         int area = sc.nextInt();
+         System.out.print("Medidas de metros a serem pintadas: ");
+         float medida = sc.nextFloat();
 
-        
+         double litros = medida / 6; // Quantidade de tinta para pintar parede.
+         double latas = Math.ceil(litros / 18); // Math.ceil Arredondamento.
+         double galoes = Math.ceil(litros / 3.6);
 
+         double precoLatas = latas * 80;
+         double precoGaloes = galoes * 25;
 
-         
+         double combinacao = (litros / 18) * 80 + (Math.ceil((litros % 18)/3.6)) * 25;
 
-         
+        System.out.println("O preço só com latas é: R$ " + precoLatas);
+        System.out.println("O preço só com galões é: R$ " + precoGaloes);
+        System.out.println("O preço combinado é: R$ " + Math.ceil(combinacao));
 
     }
     
