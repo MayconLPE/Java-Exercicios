@@ -13,7 +13,6 @@ public class Exer18 {
         double tamArquivo = scan.nextDouble();
         System.out.println("Digite a velocidade da internet:");
         double velInternet = scan.nextDouble();
-
         double tempo = tamArquivo / velInternet;
 
         System.out.println("Tempo de Download " + tempo);
