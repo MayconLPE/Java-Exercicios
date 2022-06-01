@@ -13,25 +13,26 @@ public class Exer19 {
          */
 
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Digite um número inteiro:");
         int num = sc.nextInt();
 
-        int centenas = 0;
-        int dezenas = 0;
+        int numTotal = num;
 
-        if (num >= 100) {
-            centenas = num / 100;
-            num = (centenas * 100) - num;
-            System.out.print(centenas + " Centenas, ");
-        }
-        if (num < 100) {
-            dezenas = num / 10;
-            num = (dezenas * 10) - num;
-            System.out.print(dezenas + " Dezenas e ");
-        }
-        if (num < 10) {
-            System.out.print( num + " Unidades");
+        int unidade = num % 10;
+        num = (num - unidade)/10;
+
+        int dezena = num % 10;
+        num = (num - dezena)/10;
+
+        int centena = num;
+
+
+        if (numTotal >= 100) {
+            System.out.println(centena + " Centena(s), " + dezena + " dezena(s) e " + unidade + " unidade(s)");
+        } else if (numTotal >=10 && numTotal < 100) {
+            System.out.println(dezena + " dezena(s) e " + unidade + " unidade(s)");
+        } else if (numTotal < 10) {
+            System.out.println(unidade + " unidade(s)");
         }
 
 
