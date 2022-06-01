@@ -26,7 +26,6 @@ public class Exer19 {
 
         int centena = num;
 
-
         if (numTotal >= 100) {
             System.out.println(centena + " Centena(s), " + dezena + " dezena(s) e " + unidade + " unidade(s)");
         } else if (numTotal >=10 && numTotal < 100) {
