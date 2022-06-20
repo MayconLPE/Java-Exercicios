@@ -16,7 +16,6 @@ public class Exer21 {
          */
 
          Scanner sc = new Scanner(System.in);
-         boolean condicao = true;
 
          System.out.println("Digite o valor do saque: ");
          int valorSaque = sc.nextInt();
