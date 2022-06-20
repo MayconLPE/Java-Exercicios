@@ -19,5 +19,7 @@ public class Exer23 {
             System.out.println("Decimal");
         }
 
+        sc.close();
+
     }
 }
