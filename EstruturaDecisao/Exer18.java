@@ -63,7 +63,7 @@ public class Exer18 {
                  System.out.println(dia + " / " + mes + " / " + ano);
                  */
 
-
+                sc.close();
 
         }
 
