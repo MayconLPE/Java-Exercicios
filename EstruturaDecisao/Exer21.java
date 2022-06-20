@@ -67,6 +67,7 @@ public class Exer21 {
 
          }
         
+         sc.close();
     }
     
 }
