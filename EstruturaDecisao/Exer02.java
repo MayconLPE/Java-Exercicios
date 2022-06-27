@@ -20,5 +20,7 @@ public class Exer02 {
 		else {
 			System.out.println("número 0 não é postivo nem negativo");
 		}
+
+		sc.close();
 	}
 }

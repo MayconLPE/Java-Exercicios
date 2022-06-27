@@ -23,5 +23,6 @@ public class Exer01 {
 		else {
 			System.out.println("números iguais");
 		}	
+		sc.close();
 	}
 }
