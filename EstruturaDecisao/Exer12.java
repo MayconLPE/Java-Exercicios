@@ -37,7 +37,7 @@ public class Exer12 {
 		
 		Double inss = (salarioBruto / 100) * 10; // INSS 10%
 		Double fgts = (salarioBruto / 100) * 11; // FGTS 11%
-		Double sindicato = (salarioBruto / 100) * 3; // Sindicato 3%
+		//Double sindicato = (salarioBruto / 100) * 3; // Sindicato 3%
 		
 		
 		// Salário Bruto até 900 (inclusive) - IR isento
@@ -56,7 +56,7 @@ public class Exer12 {
 			System.out.println("(-) FGTS 11%: R$ " + fgts);
 			System.out.println("salário Liquido: R$ " + (salarioBruto - (cinco + inss )));		
 		} 
-		// salário Bruto at� 2500 (inclusive) - desconto IR de 10%
+		// salário Bruto até 2500 (inclusive) - desconto IR de 10%
 		else if (salarioBruto > 1500 && salarioBruto <= 2500) {
 			System.out.println("Seu salário bruto é de: " + (salarioBruto - vinte));
 			System.out.println("(-) IR 10%: R$ " + dez);
