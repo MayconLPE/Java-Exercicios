@@ -20,6 +20,7 @@ public class Exer03 {
 		else {
 			System.out.println("Opção invalida");
 		}
+		sc.close();
 	}
 
 }

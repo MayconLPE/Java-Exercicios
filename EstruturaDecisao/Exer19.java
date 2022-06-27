@@ -33,7 +33,7 @@ public class Exer19 {
         } else if (numTotal < 10) {
             System.out.println(unidade + " unidade(s)");
         }
-
+        sc.close();
 
     }
 }

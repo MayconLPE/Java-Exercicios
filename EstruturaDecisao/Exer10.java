@@ -24,5 +24,6 @@ public class Exer10 {
 		else {
 			System.out.println("Inv�lido!");
 		}	
+		sc.close();
 	}
 }

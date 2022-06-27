@@ -50,7 +50,7 @@ public class Exer07 {
 		}
 				
 		
-
+		sc.close();
 	}
 
 }

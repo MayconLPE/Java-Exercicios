@@ -22,6 +22,7 @@ public class Exer17 {
         } else {
             System.out.println(ano + " Não é bissexto");
         }
+        sc.close();
     }
     
 }

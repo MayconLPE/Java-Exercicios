@@ -24,6 +24,7 @@ public class Exer06 {
 		else if (num3 > num1 && num3 > num1) {
 			System.out.println(num3 + " é maior que " + num1 + " e " + num2);
 		}
+		sc.close();
 		
 	}
 

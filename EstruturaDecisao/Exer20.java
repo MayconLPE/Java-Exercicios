@@ -32,5 +32,6 @@ public class Exer20 {
          } else {
             System.out.println("Média: " + media +" Nota incorreta.");
          }
+         sc.close();
     }
 }

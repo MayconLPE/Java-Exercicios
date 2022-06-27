@@ -44,5 +44,6 @@ public class Exer13 {
             System.out.println("Número inválido!");
 
         }
+        sc.close();
     }         
 }

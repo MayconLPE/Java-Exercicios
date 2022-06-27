@@ -35,7 +35,7 @@ public class Exer09 {
 		else if (num3 >= num1 && num3 >= num2 && num2 >= num1) {
 			System.out.println("Ordem decrescente é: " + num3 + num2 + num1);
 		}
-		
+		sc.close();
 	}
 }
 

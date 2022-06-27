@@ -72,6 +72,7 @@ public class Exer12 {
 					System.out.println("(-) FGTS 11%: R$ " + fgts);
 					System.out.println("salário Liquido: R$ " + (salarioBruto - (vinte + inss)));		
 		}
+		sc.close();
 	}					
 }
 

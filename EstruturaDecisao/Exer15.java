@@ -33,6 +33,6 @@ public class Exer15 {
         } else { //Triângulo Escaleno: três lados diferentes;
             System.out.println("Triângulo Escaleno: três lados diferentes.");
         }
-
+        sc.close();
     }
 }

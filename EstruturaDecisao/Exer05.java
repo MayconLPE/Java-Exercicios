@@ -30,6 +30,7 @@ public class Exer05 {
 		else {
 			System.out.println("Reprovado: " + media);
 		}
+		sc.close();
 			
 	}
 

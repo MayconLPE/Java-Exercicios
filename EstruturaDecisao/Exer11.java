@@ -53,7 +53,7 @@ public class Exer11 {
 			System.out.println("Opção invalida");
 		}
 		
-
+		sc.close();
 	}
 
 }

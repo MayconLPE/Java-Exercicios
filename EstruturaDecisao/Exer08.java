@@ -28,7 +28,7 @@ public class Exer08 {
 		else if (p3 < p1 && p3 < p2) {
 			System.out.println("O terceiro produto é mais barato: R$ " + p3);
 		}
-		
+		sc.close();
 
 	}
 

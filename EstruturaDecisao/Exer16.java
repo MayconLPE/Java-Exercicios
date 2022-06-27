@@ -40,15 +40,8 @@ public class Exer16 {
 
                 System.out.println("Raizes: " + raiz1 + " e " + raiz2);
             }
-
-            
-
         }
-
-
-
-
-        
+        sc.close();        
         
     }   
 }

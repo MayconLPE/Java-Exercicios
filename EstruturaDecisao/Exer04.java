@@ -18,6 +18,7 @@ public class Exer04 {
 		} else {
 			System.out.println("Consoante");
 		}
+		sc.close();
 	}
 }
 

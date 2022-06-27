@@ -45,5 +45,6 @@ public class Exer14 {
         } else {
             System.out.println("Invalido, Digite nota de 0 a 10");
         }
+        sc.close();
     }   
 }
