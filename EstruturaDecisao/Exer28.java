@@ -16,8 +16,53 @@ public class Exer28 {
          *  e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações da compra:
          *  tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar
          */
-        Scanner sc = new Scanner(System.in);
 
+        // Preços sem desconto.
+        double precoFileDuplo = 4.90;
+        double precoAlcatra = 5.90;
+        double precoPicanha = 6.90;
+        double totalValor = 0;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite o tipo da carne:");
+        System.out.println("1- File duplo\n2- alcatra\n3- Picanha");
+        int tipoCarne = sc.nextInt();
+        System.out.println("Quantidade em Kg:");
+        double quantidadeCarne = sc.nextDouble();
+
+        if (quantidadeCarne > 5) {
+            precoFileDuplo = 5.80;
+            precoAlcatra = 6.80;
+            precoPicanha = 7.80;     
+       }
+        
+        if (tipoCarne == 1) {
+            System.out.println("Tipo: File Duplo");
+            quantidadeCarne *= precoFileDuplo;
+            totalValor = quantidadeCarne;
+
+        } else if ( tipoCarne == 2 ) {
+            System.out.println("Tipo: Alcatra");
+            quantidadeCarne *= precoAlcatra;
+            totalValor = quantidadeCarne;
+            
+        } else if ( tipoCarne == 3) {
+            System.out.println("Tipo: Picanha");
+            quantidadeCarne *= precoPicanha;
+            totalValor = quantidadeCarne;
+            
+        }
+        System.out.println("Forma de pagamento:\n1- Cartão\n2- Dinheiro:");
+        int formaPag = sc.nextInt();
+
+        if (formaPag == 1) {
+            double desconto5 = (totalValor / 100) * 5;
+            totalValor -= desconto5;
+            System.out.println("Total Valor com Desconto: R$ " + totalValor);
+            
+        } else if (formaPag == 2) {
+            System.out.println("Total Valor: R$ " + totalValor);
+        }
         sc.close();
     }
 }
