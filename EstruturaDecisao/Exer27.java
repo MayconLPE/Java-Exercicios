@@ -16,6 +16,38 @@ public class Exer27 {
          */
         Scanner sc = new Scanner(System.in);
 
+        double precoMorango = 2.50;
+        double precoMaca = 1.80;
+        double totalCompras = 0;
+
+        System.out.println("Digite o Kg de morangos:");
+        double morangoKG = sc.nextDouble();
+        System.out.println("Digite o Kg de maçãs:");
+        double macaKG = sc.nextDouble();
+
+        double totalKG = morangoKG + macaKG;
+
+        if (morangoKG > 5) {
+            precoMorango = 2.20;
+        }
+        if (macaKG > 5) {
+            precoMaca = 1.50;
+        }
+
+        precoMorango *= morangoKG;
+        precoMaca *= macaKG;
+
+        totalCompras = precoMorango + precoMaca;
+
+        System.out.println("Morangos: R$ " + precoMorango);
+        System.out.println("Maçãs: R$ " + precoMaca);
+        System.out.println("Total: R$ " + totalCompras);
+        if (totalKG > 8.0 || totalCompras > 25.00) {
+            double desconto10 = (totalCompras / 100) * 10;
+            totalCompras -= desconto10;
+            System.out.println("Valor total com desconto: R$ " + totalCompras);
+        }
+
         sc.close();
     }
     
