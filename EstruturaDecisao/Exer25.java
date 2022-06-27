@@ -67,6 +67,8 @@ public class Exer25 {
             System.out.println("Classificação: Inocente");
         }
 
+        System.out.println("Média: Sim = "+ sim + " / Não = " + nao);
+
         sc.close();    
     }
 }
