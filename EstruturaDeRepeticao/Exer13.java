@@ -24,7 +24,8 @@ public class Exer13 {
          count++;
         }
             System.out.println(base + " ^ " + expoente + " = " + potencia);
-             }
+            sc.close();
+        }
         
     }
     

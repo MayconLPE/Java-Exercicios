@@ -89,5 +89,7 @@ public class Exer03 {
 		System.out.println("Salário: " + salario);
 		System.out.println("Sexo: " + sexo);
 		System.out.println("Estado civil: " + estadoCivil);
+
+		sc.close();
 	}
 }

@@ -31,6 +31,7 @@ public class Exer02 {
 
 		} while (!igual);
 
+		sc.close();
 	}
 
 }

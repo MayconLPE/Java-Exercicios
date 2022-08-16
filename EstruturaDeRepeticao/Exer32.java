@@ -23,6 +23,7 @@ public class Exer32 {
 
          System.out.println("Fatorial de: " + num + " é " + fator);
 
+         sc.close();
     }
     
 }

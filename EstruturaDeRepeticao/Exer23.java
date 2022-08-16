@@ -1,6 +1,6 @@
 package EstruturaDeRepeticao;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Exer23 {
@@ -33,7 +33,6 @@ public class Exer23 {
              numDivisores = 0;   
          }
          sc.close();
-
 
     }
 }

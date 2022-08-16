@@ -24,6 +24,6 @@ public class Exer21 {
          } else {
              System.out.println("Não é primo");
          }
-        
+         sc.close();
     }   
 }

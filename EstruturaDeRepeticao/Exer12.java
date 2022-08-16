@@ -27,7 +27,7 @@ public class Exer12 {
              
          }
 
-        
+         sc.close();
     }
     
 }

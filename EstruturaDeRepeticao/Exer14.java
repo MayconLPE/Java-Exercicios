@@ -1,7 +1,7 @@
 package EstruturaDeRepeticao;
 
 import java.util.Scanner;
-import java.util.SortedMap;
+// import java.util.SortedMap;
 
 public class Exer14 {
     public static void main(String[] args) {

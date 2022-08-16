@@ -23,7 +23,7 @@ public class Exer07 {
 
         System.out.println("Maior númeor é: " + maior);
         
- 
+        sc.close();
     }
     
 }

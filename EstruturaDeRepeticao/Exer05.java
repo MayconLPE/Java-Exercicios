@@ -11,7 +11,7 @@ public class Exer05 {
          */
         Scanner sc = new Scanner(System.in);
         Double paisA, paisB, taxaA, taxaB;
-        Double cont = 0.0;
+        // Double cont = 0.0;
         boolean infoValido = false;
 
         do {
@@ -76,7 +76,7 @@ public class Exer05 {
          System.out.println("População B: " + paisB);
 
      
-		
+         sc.close();
 		
 		
 	}
