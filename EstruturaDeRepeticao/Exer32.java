@@ -17,11 +17,21 @@ public class Exer32 {
          
          int fator = 1;
 
-         for (int i = 1; i <= num ; i++) {
-             fator *= i;       
+         System.out.print(num + "! = ");
+         
+         for (int i = num; i > 0 ; i--) {
+            
+             if (i == 1) {
+                System.out.print(i + " = ");
+             } else {
+                System.out.print(i + " x ");
+             }
+             fator *= i;
          }
+    
+         System.out.print(fator);
 
-         System.out.println("Fatorial de: " + num + " é " + fator);
+         System.out.println("\nFatorial de: " + num + " é " + fator);
 
          sc.close();
     }
