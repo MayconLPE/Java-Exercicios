@@ -25,5 +25,7 @@ public class Exer14 {
 		else {
 			System.out.println("Peso não ultrapassado sem pagamentos de multa."); // Valor sem multa.
 		}
+
+		sc.close();
 	}
 }

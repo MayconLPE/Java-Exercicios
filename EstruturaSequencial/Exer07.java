@@ -15,7 +15,7 @@ public class Exer07 {
 		
 		System.out.println("Área do quadrado é: " + area);
 		System.out.println("Dobro da área do quadrado" + (area * 2));
-
+		sc.close();
 	}
 
 }

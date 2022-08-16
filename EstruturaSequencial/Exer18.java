@@ -16,6 +16,7 @@ public class Exer18 {
         double tempo = tamArquivo / velInternet;
 
         System.out.println("Tempo de Download " + tempo);
-    }
-    
+
+        scan.close();
+    }    
 }

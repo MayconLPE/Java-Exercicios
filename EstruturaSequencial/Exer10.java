@@ -16,5 +16,6 @@ public class Exer10 {
 	
 	System.out.println(grausC + "°C = " + grausF + "°F");
 
+	sc.close();
 	}
 }

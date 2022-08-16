@@ -14,6 +14,7 @@ public class Exer09 {
 		Double grausC = (5 * (grausF - 32) / 9);//C = (5 * (F-32) / 9).
 		System.out.printf("A temperatura " + grausF + "°F convertido \nem graus Celsius é: %.2f " , grausC); // %.2f duas casas decimais.
 		
+		sc.close();
 	}
 
 }

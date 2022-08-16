@@ -52,6 +52,7 @@ public class Exer13 {
 		}
 			
 		System.out.println("Seu IMC é: " + imc);
+		sc.close();
 	}
 
 }

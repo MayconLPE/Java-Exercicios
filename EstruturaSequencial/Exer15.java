@@ -43,7 +43,7 @@ public class Exer15 {
 		Double salarioLiquido = salarioBruto - descontos; //total Salário Liquido
 		
 		System.out.println("Salário Liquido: " + salarioLiquido);	
-		
+		sc1.close();
 	}
 
 }

@@ -13,7 +13,7 @@ public class Exer06 {
 		double area = Math.PI * raio * raio; // A = π . r2
 		
 		System.out.println("O valor da area é " + area);
-
+		sc.close();
 	}
 
 }

@@ -16,6 +16,7 @@ public class Exer08 {
 		
 		Double salarioMes = horaSalario * horasTrabalhadas;
 		System.out.println("Salário do mês: R$ " + salarioMes);
+		sc.close();
 	}
 
 }

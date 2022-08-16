@@ -34,6 +34,8 @@ public class Exer17 {
         System.out.println("O preço só com galões é: R$ " + precoGaloes);
         System.out.println("O preço combinado é: R$ " + Math.ceil(combinacao));
 
+        sc.close();
+
     }
     
 }

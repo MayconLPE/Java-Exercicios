@@ -16,6 +16,7 @@ public class Exer12 {
 		
 		Double pesoIdeal = (72.7 * altura) - 58;
 		System.out.println(pesoIdeal);
+		sc.close();
 	}
 
 }

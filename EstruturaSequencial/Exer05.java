@@ -14,6 +14,7 @@ public class Exer05 {
 		Double cm = m * 100; // centímetros	
 		
 		System.out.println( m + " metros, convertidos em centímetros é igual a " + cm + "cm");
+		sc.close();
 	}
 
 }

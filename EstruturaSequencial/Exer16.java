@@ -24,7 +24,8 @@ public class Exer16 {
 		
 		System.out.println("Tintas a serem usadas: " + latas + " Latas");
 		System.out.println("Valor a ser gasto: R$ " + preco);
-				
+		
+		sc.close();
 	}
 
 }

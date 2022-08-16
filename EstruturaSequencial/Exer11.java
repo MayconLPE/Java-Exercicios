@@ -29,6 +29,8 @@ public class Exer11 {
 		// o terceiro elevado ao cubo.
 		int soma3 = (int) Math.pow(num3, 3);
 		System.out.println("O terceiro elevado ao cubo: \n" + soma3);
+
+		sc.close();
 	}
 
 }
