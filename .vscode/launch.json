@@ -4,6 +4,14 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Exer34",
+            "request": "launch",
+            "mainClass": "EstruturaDeRepeticao.Exer34",
+            "projectName": "Java-Exercicios_a0569f6c"
+        },
         {
             "type": "java",
             "name": "Launch Exer33",
