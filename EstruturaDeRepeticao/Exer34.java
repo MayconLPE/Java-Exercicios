@@ -13,7 +13,7 @@ public class Exer34 {
 
          System.out.println("Digite um número inteiro:");
          int num = sc.nextInt();
-         
+         // divisíveis por 1 e por ele mesmo
          for (int i = 1; i <= num; i++) {
             if (num % i == 0) {
                 numDivisores++;
