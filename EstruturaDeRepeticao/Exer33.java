@@ -13,7 +13,7 @@ public class Exer33 {
         int quantTemperaturas = 0;
         float temperatura = 0f;
         float maior = 0f;
-        float menor = Float.MAX_VALUE;;
+        float menor = Float.MAX_VALUE;
         
 
         System.out.println("Digite a quantidade de temperaturas: ");
