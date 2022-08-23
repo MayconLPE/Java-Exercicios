@@ -34,7 +34,12 @@ public class Exer37 {
                     altura = sc.nextDouble();
                     System.out.println("Digite seu peso:");
                     peso = sc.nextDouble();
+
                     contadorClientes++;
+                    mediaAltura += altura;
+                    mediaPeso += peso;
+                    mediaAltura = mediaAltura / contadorClientes;
+                    mediaPeso = mediaPeso / contadorClientes;
                                        
 
                     if (altura > maisAlto) {
@@ -54,6 +59,9 @@ public class Exer37 {
                     System.out.println("Mais baixo: " + maisBaixo);
                     System.out.println("Mais Magro: " + maisMagro);
                     System.out.println("Mais Gordo:  " + maisGordo);
+
+                    System.out.println("Media Altura: " + mediaAltura);
+                    System.out.println("Media Peso: " + mediaPeso);
                     
  
                     
