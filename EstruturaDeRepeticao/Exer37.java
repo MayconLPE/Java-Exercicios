@@ -76,7 +76,7 @@ public class Exer37 {
             }
             
          }
-
+         sc.close();
 
     }
 }
