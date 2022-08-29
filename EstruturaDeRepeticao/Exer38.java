@@ -47,22 +47,19 @@ public class Exer38 {
         int anosTrabalhados = anoFinal - anoInicial; // Anos Trabalhados.
         double porcenInicial = 1.5; // 1,5%
 
-        double PorcenSal = (salarioInicial / 100) * porcenInicial;
-        
-        salarioFinal = salarioInicial + PorcenSal;
-       
+        double PorcenSal = (salarioInicial / 100) * porcenInicial;   
+        salarioFinal = salarioInicial + PorcenSal; 
         System.out.println("Salário: R$ " + salarioFinal + " Ano: " + anoInicial);
 
         for (int i = 1;i <= anosTrabalhados; i++ ) {
             anoInicial++;
             porcenInicial = porcenInicial * 2;
             System.out.println(porcenInicial);
-
             PorcenSal = (salarioFinal / 100) * porcenInicial;
             salarioFinal = salarioInicial + PorcenSal;
 
             System.out.println("Salário R$ " + salarioFinal + " Ano: " + anoInicial);
-            
+    
         }          
          */
     }
