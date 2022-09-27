@@ -13,16 +13,25 @@ public class Exer39 {
 
          int numAluno[] = new int[5];
          double altura[] = new double[5];
-
-        for (int i = 0; i<numAluno.length;i++) {
+         double maisAlto = altura[0];
+         double maisBaixo = Double.MAX_VALUE; 
+          
+        for (int i = 0; i<numAluno.length;++i) {
             System.out.println("Digite o número do aluno:");
             numAluno[i] = sc.nextInt();
+            System.out.println("Digite a altura:");
+            altura[i] = sc.nextDouble();
 
-            System.out.println("Aluno " + i + " Cadastrado");
+            if(altura[i] > maisAlto) {
+                maisAlto = altura[i];
+            }
+           
         }
 
-      
+            System.out.println("Maior Altura: " + maisAlto);
+               
+           
 
-        
+      sc.close();  
     }
 }
