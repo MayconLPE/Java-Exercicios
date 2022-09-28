@@ -14,6 +14,7 @@ public class Exer39 {
          int numAluno[] = new int[5];
          double altura[] = new double[5];
          double maisAlto = altura[0];
+         double alunoAlto = numAluno[0];
          double maisBaixo = Double.MAX_VALUE; 
           
         for (int i = 0; i<numAluno.length;++i) {
@@ -24,13 +25,13 @@ public class Exer39 {
 
             if(altura[i] > maisAlto) {
                 maisAlto = altura[i];
+                alunoAlto = numAluno[i];
             }
            
         }
 
             System.out.println("Maior Altura: " + maisAlto);
-               
-           
+            System.out.println("Número do aluno: " + alunoAlto);
 
       sc.close();  
     }
