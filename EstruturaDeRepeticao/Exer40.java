@@ -12,6 +12,6 @@ public class Exer40 {
          * Qual o maior e menor índice de acidentes de transito e a que cidade pertence;
          * Qual a média de veículos nas cinco cidades juntas;
          * Qual a média de acidentes de trânsito nas cidades com menos de 2.000 veículos de passeio */
- 
+        
     }
 }
