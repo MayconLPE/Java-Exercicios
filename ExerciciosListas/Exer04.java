@@ -18,7 +18,9 @@ public class Exer04 {
             System.out.println("Digite uma letra: ");
             carc[i] = sc.next().charAt(0);
 
-            if (carc[i]== 'a' || carc[i]== 'e' || carc[i]== 'i' || carc[i]== 'o' || carc[i]== 'u') {
+            if (carc[i]== 'a' || carc[i]== 'e' || carc[i]== 'i' || carc[i]== 'o' || carc[i]== 'u'
+                || carc[i]== 'A' || carc[i]== 'E' || carc[i]== 'I' || carc[i]== 'O' || carc[i]== 'U'
+            ) {
                 System.out.println("(" + carc[i] + ")" + " é uma vogal.");
                 vogais++;
             } else {
@@ -30,7 +32,5 @@ public class Exer04 {
             System.out.println("Número de vogais " + vogais );
 
         sc.close();    
-
-        /* não funciona com letras maiusculas! */
     }
 }
