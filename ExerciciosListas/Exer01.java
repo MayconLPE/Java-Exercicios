@@ -8,18 +8,20 @@ public class Exer01 {
 
         Scanner sc = new Scanner(System.in);
 
-        int num[] = new int[4];
+        int num[] = new int[5];
 
-        for (int i = 0; i <= num.length; i++) {
+        for (int i = 0; i < num.length; i++) {
             System.out.println("Digite o número do vetor " + i );
             num[i] = sc.nextInt();
         }
 
-       for (int i = 0; i <= num.length; i++) {
-        System.out.println(num[i]);
-       }
+        for (int var : num) {
+            System.out.print(var + " ");
+        }
 
-        
+       /*for (int i = 0; i <= num.length; i++) {
+        System.out.println(num[i]);
+       }*/  
         
     }
     
