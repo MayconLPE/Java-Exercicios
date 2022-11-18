@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Exer03",
+            "request": "launch",
+            "mainClass": "EstruturaDeRepeticao.Exer03",
+            "projectName": "Java-Exercicios_5eaa1f1a"
+        },
+        {
+            "type": "java",
             "name": "Launch Exer02",
             "request": "launch",
             "mainClass": "EstruturaDecisao.Exer02",
